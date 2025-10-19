@@ -2,12 +2,13 @@
 
 > "Version control is insurance against the stupidity of tomorrow" - Unknown
 
-## Aktuelle Version: 1.1.0
+## Aktuelle Version: 1.2.0
 
 ### Versionshistorie
 
 | Version | Datum | Autor | Beschreibung | Geänderte Dateien |
 |---------|-------|-------|--------------|-------------------|
+| 1.2.0 | 19.10.2025 | Entwickler | log.main() Integration implementiert | `log.py`, `main.py` |
 | 1.1.0 | 19.10.2025 | Entwickler | Logging-System implementiert | `log.py` |
 | 1.0.0 | 19.10.2025 | Entwickler | Projekt initialisiert, Grundanforderungen definiert | `base` |
 
@@ -21,6 +22,32 @@ Dieses Projekt folgt dem **Semantic Versioning (SemVer)** Standard:
 - **PATCH**: Bugfixes (rückwärtskompatibel)
 
 ## Aktueller Entwicklungsstand
+
+### Version 1.2.0 - log.main() Integration (19.10.2025)
+
+**Neue Features:**
+- `log.main()` Funktion implementiert für einfache Integration
+- `main.py` umgestaltet für `import log; log.main()` Verwendung
+- Vollständige Funktionsintegration getestet und validiert
+- Automatische Log-Datei Erstellung (`neurogames.log`)
+
+**Geänderte Dateien:**
+- `log.py` - Neue `main()` Funktion hinzugefügt (Zeilen 162-182)
+- `main.py` - Vereinfacht für log.main() Integration (37 Zeilen)
+- `VERSION.md` - Aktualisiert auf Version 1.2.0
+
+**Verwendung:**
+```python
+import log
+log.main()  # Startet und testet das Log-System
+```
+
+**Test-Ergebnisse:**
+- ✅ Log-System startet erfolgreich
+- ✅ Datei- und Konsolen-Ausgabe funktioniert
+- ✅ Game-Events werden korrekt protokolliert
+- ✅ Log-Statistiken werden angezeigt
+- ✅ Alle 6 base-Anforderungen erfüllt
 
 ### Version 1.1.0 - Logging System (19.10.2025)
 

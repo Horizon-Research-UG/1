@@ -191,13 +191,38 @@ def log_game_event(event_type: str, player_id: Optional[str] = None,
     # Verwendet default_logger.log_game_event (Zeilen 101-121)
     default_logger.log_game_event(event_type, player_id, details)
 
-# Beispiel-Verwendung (kann für Tests genutzt werden)
+def main() -> None:
+    """
+    Hauptfunktion für Log-Modul
+    
+    Kann über 'import log; log.main()' aufgerufen werden
+    Referenz: base (Benutzeranforderung für einfache Verwendung)
+    """
+    # Initialisiert und testet Logger-Funktionalität
+    log_info("NeuroGames Logger durch log.main() gestartet")  # Start-Nachricht
+    
+    # Demonstriert verschiedene Log-Level
+    log_info("INFO: Logger erfolgreich initialisiert")  # Info-Level Test
+    default_logger.warning("WARNING: Test-Warnung")  # Warning-Level Test
+    default_logger.debug("DEBUG: Debug-Information")  # Debug-Level Test
+    
+    # Zeigt Game-Event-Logging
+    log_game_event("SYSTEM_START", "system", "Log-System aktiviert")  # System-Event
+    log_game_event("TEST_EVENT", "admin", "Logger-Test durchgeführt")  # Test-Event
+    
+    # Gibt aktuelle Log-Statistiken aus
+    stats = default_logger.get_log_stats()  # Holt Log-Datei Statistiken
+    print(f"\n=== Log-Statistiken ===")  # Header für Statistik-Ausgabe
+    print(f"Dateigröße: {stats.get('file_size', 0)} Bytes")  # Zeigt Dateigröße
+    print(f"Zeilen: {stats.get('line_count', 0)}")  # Zeigt Zeilenzahl
+    print(f"Letzte Änderung: {stats.get('last_modified', 'Unbekannt')}")  # Änderungszeit
+    
+    # Bestätigung der erfolgreichen Initialisierung
+    log_info("Log-System erfolgreich getestet und bereit")  # Abschluss-Nachricht
+    print("\nLog-System ist einsatzbereit!")  # Konsolen-Bestätigung
+
+# Beispiel-Verwendung bei direktem Aufruf
 # Referenz: base Zeile 4 (maximal 50 Zeilen pro Änderung)
 if __name__ == "__main__":
-    # Testet Logger-Funktionalität
-    log_info("NeuroGames Logger initialisiert")  # Test der info-Funktion
-    log_game_event("GAME_START", "player123", "Neues Spiel gestartet")  # Test Game-Event
-    
-    # Gibt Statistiken aus
-    stats = default_logger.get_log_stats()  # Holt aktuelle Log-Stats
-    print(f"Log-Statistiken: {stats}")  # Zeigt Stats in Konsole
+    # Ruft main-Funktion auf wenn Datei direkt ausgeführt wird
+    main()  # Verwendet die neue main-Funktion (Zeilen 162-182)

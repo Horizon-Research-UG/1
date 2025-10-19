@@ -1,2 +1,38 @@
 2025-10-19 12:58:15,601 - NeuroGames_2755032067984 - INFO - NeuroGames Logger initialisiert
 2025-10-19 12:58:15,601 - NeuroGames_2755032067984 - INFO - GAME_EVENT: GAME_START | Player: player123 | Details: Neues Spiel gestartet
+2025-10-19 13:03:13,261 - NeuroGames_1872290934672 - INFO - NeuroGames Logger durch log.main() gestartet
+2025-10-19 13:03:13,261 - NeuroGames_1872290934672 - INFO - INFO: Logger erfolgreich initialisiert
+2025-10-19 13:03:13,261 - NeuroGames_1872290934672 - WARNING - WARNING: Test-Warnung
+2025-10-19 13:03:13,261 - NeuroGames_1872290934672 - INFO - GAME_EVENT: SYSTEM_START | Player: system | Details: Log-System aktiviert
+2025-10-19 13:03:13,262 - NeuroGames_1872290934672 - INFO - GAME_EVENT: TEST_EVENT | Player: admin | Details: Logger-Test durchgeführt
+2025-10-19 13:03:13,272 - NeuroGames_1872290934672 - INFO - Log-System erfolgreich getestet und bereit
+2025-10-19 13:03:13,272 - NeuroGames_1872290934672 - INFO - NeuroGames Hauptanwendung nach log.main() gestartet
+2025-10-19 13:03:13,272 - NeuroGames_1872290934672 - INFO - GAME_EVENT: MAIN_APP_START | Player: system | Details: Hauptanwendung läuft
+2025-10-19 13:03:13,272 - NeuroGames_1872290934672 - INFO - NeuroGames Hauptprogramm erfolgreich ausgeführt
+2025-10-19 13:04:04,426 - NeuroGames_1952777760656 - INFO - NeuroGames Logger durch log.main() gestartet
+2025-10-19 13:04:04,426 - NeuroGames_1952777760656 - INFO - INFO: Logger erfolgreich initialisiert
+2025-10-19 13:04:04,426 - NeuroGames_1952777760656 - WARNING - WARNING: Test-Warnung
+2025-10-19 13:04:04,426 - NeuroGames_1952777760656 - INFO - GAME_EVENT: SYSTEM_START | Player: system | Details: Log-System aktiviert
+2025-10-19 13:04:04,426 - NeuroGames_1952777760656 - INFO - GAME_EVENT: TEST_EVENT | Player: admin | Details: Logger-Test durchgeführt
+2025-10-19 13:04:04,435 - NeuroGames_1952777760656 - INFO - Log-System erfolgreich getestet und bereit
+2025-10-19 13:04:04,435 - NeuroGames_1952777760656 - INFO - NeuroGames Hauptanwendung nach log.main() gestartet
+2025-10-19 13:04:04,435 - NeuroGames_1952777760656 - INFO - GAME_EVENT: MAIN_APP_START | Player: system | Details: Hauptanwendung läuft
+2025-10-19 13:04:04,436 - NeuroGames_1952777760656 - INFO - NeuroGames Hauptprogramm erfolgreich ausgeführt
+2025-10-19 13:04:33,057 - NeuroGames_2721678421904 - INFO - NeuroGames Logger durch log.main() gestartet
+2025-10-19 13:04:33,057 - NeuroGames_2721678421904 - INFO - INFO: Logger erfolgreich initialisiert
+2025-10-19 13:04:33,057 - NeuroGames_2721678421904 - WARNING - WARNING: Test-Warnung
+2025-10-19 13:04:33,057 - NeuroGames_2721678421904 - INFO - GAME_EVENT: SYSTEM_START | Player: system | Details: Log-System aktiviert
+2025-10-19 13:04:33,057 - NeuroGames_2721678421904 - INFO - GAME_EVENT: TEST_EVENT | Player: admin | Details: Logger-Test durchgeführt
+2025-10-19 13:04:33,068 - NeuroGames_2721678421904 - INFO - Log-System erfolgreich getestet und bereit
+2025-10-19 13:04:33,068 - NeuroGames_2721678421904 - INFO - NeuroGames Hauptanwendung nach log.main() gestartet
+2025-10-19 13:04:33,069 - NeuroGames_2721678421904 - INFO - GAME_EVENT: MAIN_APP_START | Player: system | Details: Hauptanwendung läuft
+2025-10-19 13:04:33,069 - NeuroGames_2721678421904 - INFO - NeuroGames Hauptprogramm erfolgreich ausgeführt
+2025-10-19 13:04:33,958 - NeuroGames_2699994722192 - INFO - NeuroGames Logger durch log.main() gestartet
+2025-10-19 13:04:33,958 - NeuroGames_2699994722192 - INFO - INFO: Logger erfolgreich initialisiert
+2025-10-19 13:04:33,958 - NeuroGames_2699994722192 - WARNING - WARNING: Test-Warnung
+2025-10-19 13:04:33,958 - NeuroGames_2699994722192 - INFO - GAME_EVENT: SYSTEM_START | Player: system | Details: Log-System aktiviert
+2025-10-19 13:04:33,958 - NeuroGames_2699994722192 - INFO - GAME_EVENT: TEST_EVENT | Player: admin | Details: Logger-Test durchgeführt
+2025-10-19 13:04:33,968 - NeuroGames_2699994722192 - INFO - Log-System erfolgreich getestet und bereit
+2025-10-19 13:04:33,969 - NeuroGames_2699994722192 - INFO - NeuroGames Hauptanwendung nach log.main() gestartet
+2025-10-19 13:04:33,969 - NeuroGames_2699994722192 - INFO - GAME_EVENT: MAIN_APP_START | Player: system | Details: Hauptanwendung läuft
+2025-10-19 13:04:33,969 - NeuroGames_2699994722192 - INFO - NeuroGames Hauptprogramm erfolgreich ausgeführt
