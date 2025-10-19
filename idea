@@ -1,0 +1,27 @@
+# Idea Beschreibung
+2. log.py
+
+
+
+log.py öffnet oder erstellt JSON Dokument, dessen Name am Anfang des programs als varoable gehardcoded wird
+
+log.py liest die summe aller aufrufe aus
+
+log.py speichert die summe aller aufrufe in der variable runs
+log.py macht runs += 1
+
+log.py kann in anderen dateien Modular verwendet werden
+auch in anderen ordnern
+
+log.py findet immer folgende infos
+
+2.1 Name der Datei
+2.2 Pfad zur Datei
+
+
+log.py speichert die infos zu 
+runs
+name
+pfad in der log datei ab
+
+der aktuellste aufruf ist immer oben
